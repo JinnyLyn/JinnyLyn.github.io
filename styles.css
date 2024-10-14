@@ -19,6 +19,9 @@ header {
     padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center text in header */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
 }
 
 .logo {
@@ -235,4 +238,8 @@ header .logo {
     width: fit-content; /* Shrinks the link to the size of the content */
     margin: 0 auto; /* Centers the link and logo */
     text-align: center; /* Center-aligns any text if necessary */
+}
+
+h1 {
+    margin: 10px 0; /* Optional: Add spacing between logo and title */
 }
