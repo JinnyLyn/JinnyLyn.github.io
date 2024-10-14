@@ -144,12 +144,11 @@ footer nav a {
 }
 
 .member img.member-image {
-    width: 100%; /* Makes the image fill the width of the card */
-    height: auto; /* Keeps the aspect ratio */
-    max-height: 70%; /* Limits the height of the image to 70% of the member card */
-    object-fit: cover; /* Crops the image to fit the card */
+    width: 80%; /* Keeps the image a bit smaller to fit within the card */
+    height: auto; /* Maintains the aspect ratio */
+    max-height: 120px; /* Limits the height of the image to keep it smaller */
     border-radius: 50%; /* Keeps the image circular */
-    margin-bottom: 5px; /* Space between image and text */
+    margin-bottom: 10px; /* Space between image and text */
 }
 
 .member p {
