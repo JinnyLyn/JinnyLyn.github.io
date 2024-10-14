@@ -217,8 +217,9 @@ footer nav a {
 }
 
 .logo-link {
-    display: inline-block;
-    width: 100px; /* Match this to the .logo width */
+    display: inline-block; /* Make the link only as wide as its content */
+    width: auto; /* Ensure it doesn't expand beyond the content */
+    text-align: center; /* Center-align the content */
 }
 
 header .logo {
