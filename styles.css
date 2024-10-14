@@ -100,19 +100,18 @@ nav ul li a {
 
 .member {
     background: #fff;
-    padding: 10px; /* Adjust padding for better spacing */
+    padding: 0; /* Remove padding for a cleaner fit */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     text-align: center;
-    width: 150px; /* Adjust the size of the circle */
-    height: 150px;
+    width: 160px; /* Increase size for better content fit */
+    height: 160px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Space between the image, text, and icon */
     align-items: center;
-    overflow: hidden; /* Ensures content doesn't overflow the circle */
+    justify-content: center;
+    overflow: hidden; /* Ensures content doesn't spill out of the circle */
 }
-
 .cta {
     background: #f4f4f4;
     padding: 60px 0;
@@ -144,25 +143,27 @@ footer nav a {
 }
 
 .member p {
-    margin: 5px 0; /* Adjusts space around the name */
-    font-size: 14px; /* Adjust the font size if needed */
+    margin: 5px 0 0 0; /* Space between image and name */
+    font-size: 14px; /* Adjust the font size for better readability */
+    line-height: 1.2;
 }
 
 .member a {
     text-decoration: none; /* Removes underline */
-    margin-bottom: 5px; /* Space between the icon and the bottom edge */
+    margin-top: 5px; /* Space between the name and the icon */
     display: inline-block;
 }
 
 .member i.fab.fa-instagram {
-    font-size: 18px; /* Adjust icon size */
+    font-size: 20px; /* Adjust icon size */
     color: #E4405F; /* Instagram's brand color */
+    margin-top: 3px; /* Adjust spacing */
 }
 
 .member img.member-image {
-    width: 80%; /* Adjust to fit within the circle */
-    height: 80%;
+    width: 100px; /* Smaller image for better spacing */
+    height: 100px;
     object-fit: cover;
     border-radius: 50%; /* Keeps the image circular */
-    margin-top: 5px; /* Adds space above the image */
+    margin-top: 10px; /* Space above the image */
 }
