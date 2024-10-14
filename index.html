@@ -80,5 +80,33 @@
             <p>2024 WORM.</p>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const memberImages = document.querySelectorAll('.member img.member-image');
+
+            memberImages.forEach(image => {
+                // Create a new image object to get the natural width and height
+                const img = new Image();
+                img.src = image.src;
+
+                img.onload = function () {
+                    const ratio = img.naturalWidth / img.naturalHeight;
+
+                    // Set the dimensions based on the aspect ratio
+                    if (ratio > 1) { // Landscape
+                        image.style.width = '100%';
+                        image.style.height = 'auto';
+                    } else { // Portrait or square
+                        image.style.height = '100%';
+                        image.style.width = 'auto';
+                    }
+
+                    // Apply object-fit to cover the area
+                    image.style.objectFit = 'cover';
+                };
+            });
+        });
+    </script>
 </body>
 </html>

@@ -130,12 +130,12 @@ footer nav a {
 
 .member {
     background: #fff;
-    padding: 5px; /* Reduced padding */
+    padding: 0; /* Remove padding to maximize space */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     text-align: center;
-    width: 240px; /* Size for better content fit */
-    height: 240px; /* Size for better content fit */
+    width: 240px; /* Fixed width */
+    height: 240px; /* Fixed height */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,10 +144,9 @@ footer nav a {
 }
 
 .member img.member-image {
-    width: 100%; /* Set to 100% to fill the circle */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 90%; /* Ensure it fits well */
-    object-fit: cover; /* Cover to fill circle */
+    width: 100%; /* Ensure image takes full width */
+    height: 100%; /* Ensure image takes full height */
+    object-fit: cover; /* Crop the image to cover the area */
     border-radius: 50%; /* Keeps the image circular */
     margin-bottom: 5px; /* Space between image and text */
 }
