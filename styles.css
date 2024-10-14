@@ -130,12 +130,12 @@ footer nav a {
 
 .member {
     background: #fff;
-    padding: 10px; /* Increased padding for better fit */
+    padding: 10px; /* Padding for better fit */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     text-align: center;
-    width: 260px; /* Increased size for better content fit */
-    height: 260px; /* Increased size for better content fit */
+    width: 240px; /* Size for better content fit */
+    height: 240px; /* Size for better content fit */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,7 +145,7 @@ footer nav a {
 
 .member img.member-image {
     width: 100%; /* Make image fill the container */
-    height: auto; /* Maintain aspect ratio */
+    height: 90%; /* Control height to crop the bottom part */
     object-fit: cover; /* Keep the cover property */
     object-position: top; /* Focus on the top part of the image */
     border-radius: 50%; /* Keeps the image circular */
