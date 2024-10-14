@@ -174,3 +174,44 @@ footer nav a {
         gap: 40px; /* More space between members on larger screens */
     }
 }
+
+/* General button styling */
+.btn {
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Adjust button styling for better integration */
+.hero-buttons .btn {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+}
+
+.hero-buttons .btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.cta-buttons .btn {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #fff;
+    color: #000;
+}
