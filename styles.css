@@ -141,3 +141,15 @@ footer nav a {
     text-decoration: none;
     font-size: 14px;
 }
+
+.member a {
+    text-decoration: none; /* Removes underline */
+    margin-top: 5px; /* Space between the name and the icon */
+    display: inline-block;
+}
+
+.member i.fab.fa-instagram {
+    font-size: 20px; /* Adjust icon size */
+    color: #E4405F; /* Instagram's brand color */
+    margin-left: 5px; /* Space between name and icon */
+}
