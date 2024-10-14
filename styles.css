@@ -216,16 +216,16 @@ footer nav a {
     color: #000;
 }
 
-.logo-link {
-    display: inline-block; /* Make the link only as wide as its content */
-    width: auto; /* Ensure it doesn't expand beyond the content */
-    text-align: center; /* Center-align the content */
-}
-
 header .logo {
     display: block;
-    margin: 0 auto;
-    width: 100px; /* Adjust the size of the logo as needed */
+    margin: 0 auto; /* Centers the logo horizontally */
+    width: 200px; /* Adjust the size of the logo as needed */
     height: auto;
-    margin-bottom: 20px; /* Adds space between the logo and the title */
+}
+
+.logo-link {
+    display: block; /* Keeps the link as a block for easier centering */
+    width: fit-content; /* Shrinks the link to the size of the content */
+    margin: 0 auto; /* Centers the link and logo */
+    text-align: center; /* Center-aligns any text if necessary */
 }
