@@ -98,22 +98,6 @@ nav ul li a {
     justify-content: center;
 }
 
-.member {
-    background: #fff;
-    padding: 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    text-align: center;
-    width: 180px; /* Slightly increased size */
-    height: 180px; /* Slightly increased size */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; /* Center content vertically */
-    overflow: hidden;
-}
-
-
 .cta {
     background: #f4f4f4;
     padding: 60px 0;
@@ -144,17 +128,32 @@ footer nav a {
     font-size: 14px;
 }
 
+.member {
+    background: #fff;
+    padding: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    text-align: center;
+    width: 200px; /* Increased size for better content fit */
+    height: 200px; /* Increased size for better content fit */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    overflow: hidden;
+}
+
 .member img.member-image {
-    width: 80%; /* Adjust image size */
+    width: 70%; /* Adjusted image size to fit better */
     height: auto;
     object-fit: cover;
     border-radius: 50%;
-    margin-top: 10px; /* Space between image and text */
+    margin-top: 5px; /* Adjusted space between image and text */
 }
 
 .member p {
-    margin: 5px 0; /* Adjust space between elements */
-    font-size: 14px; /* Adjust font size for readability */
+    margin: 0; /* Ensure there's no extra margin */
+    font-size: 14px; /* Adjust font size for better readability */
 }
 
 .member a {
@@ -164,7 +163,7 @@ footer nav a {
 }
 
 .member i.fab.fa-instagram {
-    font-size: 20px; /* Adjust icon size */
+    font-size: 24px; /* Adjust icon size slightly larger */
     color: #E4405F; /* Instagram's brand color */
-    margin-top: 5px; /* Adjust space between text and icon */
+    margin-top: 5px; /* Space between text and icon */
 }
