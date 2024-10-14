@@ -135,7 +135,7 @@ footer nav a {
     border-radius: 50%;
     text-align: center;
     width: 240px; /* Size for better content fit */
-    height: 240px; /* Size for better content fit */
+    height: auto; /* Size for better content fit */
     display: flex;
     flex-direction: column;
     align-items: center;
