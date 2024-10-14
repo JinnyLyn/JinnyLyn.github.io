@@ -104,14 +104,15 @@ nav ul li a {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     text-align: center;
-    width: 200px; /* Increase size for better content fit */
-    height: 200px; /* Increase size for better content fit */
+    width: 180px; /* Slightly increased size */
+    height: 180px; /* Slightly increased size */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center; /* Center content vertically */
     overflow: hidden;
 }
+
 
 .cta {
     background: #f4f4f4;
@@ -143,26 +144,27 @@ footer nav a {
     font-size: 14px;
 }
 
+.member img.member-image {
+    width: 80%; /* Adjust image size */
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px; /* Space between image and text */
+}
+
 .member p {
-    margin: 0;
-    font-size: 16px; /* Adjust font size for better readability */
+    margin: 5px 0; /* Adjust space between elements */
+    font-size: 14px; /* Adjust font size for readability */
 }
 
 .member a {
     text-decoration: none;
-    margin-top: 5px;
+    margin-top: 5px; /* Space between the name and the icon */
     display: inline-block;
 }
 
 .member i.fab.fa-instagram {
-    font-size: 22px;
-    color: #E4405F;
-    margin-top: 5px;
-}
-
-.member img.member-image {
-    width: 85%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 50%;
+    font-size: 20px; /* Adjust icon size */
+    color: #E4405F; /* Instagram's brand color */
+    margin-top: 5px; /* Adjust space between text and icon */
 }
