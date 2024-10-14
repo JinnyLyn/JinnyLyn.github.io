@@ -216,6 +216,11 @@ footer nav a {
     color: #000;
 }
 
+.logo-link {
+    display: inline-block;
+    width: 100px; /* Match this to the .logo width */
+}
+
 header .logo {
     display: block;
     margin: 0 auto;
