@@ -9,12 +9,16 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
 }
 
 header {
     background: #fff;
     padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text in header */
 }
 
 .logo {
@@ -26,6 +30,9 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 15px;
+    justify-content: center; /* Center the navigation items */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
 }
 
 nav ul li a {
