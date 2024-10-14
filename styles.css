@@ -144,8 +144,9 @@ footer nav a {
 }
 
 .member img.member-image {
-/*    width: 90%; /* Make image fill the container */ */
-    height: 90%; /* Control height to crop the bottom part */
+    width: 100%; /* Make image fill the container */ 
+    max-width: 100%;
+    height: auto; /* Control height to crop the bottom part */
     object-fit: cover; /* Keep the cover property */
     object-position: top; /* Focus on the top part of the image */
     border-radius: 50%; /* Keeps the image circular */
