@@ -1,1 +1,3 @@
-# JinnyLyn.github.io
+# WORM
+
+repo for school club web page
